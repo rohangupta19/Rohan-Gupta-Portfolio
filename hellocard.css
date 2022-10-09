@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+body{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.Logo{
+position: absolute;
+width: 50px;
+height: 50px;
+transform: translateX(390px);
+z-index: 10;
+background-image: url(logodark.png);
+background-size: 50px;
+background-position: center;
+background-repeat: no-repeat;
+}
+.box{
+position: fixed;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+transform: rotate(-60deg);
+}
+.bgvdo{
+width: 100%;
+z-index: -1;
+transform: rotate(60deg) translateX(-176px);
+}
+.card1{
+position: absolute;
+width: 450px;
+height: 250px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+z-index: 1;
+overflow: hidden;
+border-top: 2px solid white;
+cursor: pointer;
+transform: skew(0deg) translateX(20px) translateY(-170px) rotate(-45deg);
+}
+.card2{
+position: absolute;
+width: 450px;
+height: 250px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+z-index: 1;
+overflow: hidden;
+border-top: 2px solid white;
+cursor: pointer;
+transform: skew(0deg) translateX(50px) translateY(0px) rotate(0deg);
+}
+.card3{
+position: absolute;
+width: 450px;
+height: 250px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+z-index: 1;
+overflow: hidden;
+border-top: 2px solid white;
+cursor: pointer;
+transform: skew(0deg) translateX(-50px) translateY(150px) rotate(45deg);
+}
+.cardtop{
+width: 450px;
+height: 200px;
+backdrop-filter: blur(20px);
+}
+.cardbottom{
+width: 450px;
+height: 50px;
+backdrop-filter: blur(30px);
+background: rgba(255, 255, 255, 0.1);
+}
+.shp1{
+position: absolute;
+width: 150px;
+height: 150px;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 100%;
+backdrop-filter: blur(20px);
+transform: translateX(-50px) translateY(-50px);
+}
+.dp{
+width: 150px;
+height: 150px;
+position: absolute;
+border-radius: 100%;
+background: rgba(255, 255, 255, 0.1);
+background-image: url(profile.png);
+backdrop-filter: blur(20px);
+background-size: 150px;
+z-index: 10;
+transform: translateX(250px) translateY(30px);
+}
+.shp2{
+position: absolute;
+width: 100px;
+height: 100px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 100%;
+backdrop-filter: blur(20px);
+z-index: 1;
+transform: translateX(310px) translateY(10px);
+}
+.shp3{
+position: absolute;
+width: 120px;
+height: 120px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 100%;
+backdrop-filter: blur(20px);
+z-index: 1;
+transform: translateX(320px) translateY(80px);
+}
+.contact{
+width: 400px;
+height: 50px;
+padding-left: 50px;
+font-size: 12px;
+font-weight: 700;
+display: flex;
+align-items: center;
+justify-content: left;
+flex-wrap: wrap;
+word-spacing: 70px;
+color: rgba(255, 255, 255, 0.5);
+}
+.content{
+padding-left: 50px;
+padding-top: 50px;
+}
+.helloline{
+font-size: 12px;
+font-weight: 500;
+color: rgba(255, 255, 255, 0.7);
+}
+.nameline{
+font-size: 25px;
+font-weight: 700;
+color: rgba(255, 255, 255, 0.5);
+}
+.aboutline{
+position: absolute;
+width: 200px;
+font-size: 10px;
+font-weight: 700;
+color: rgba(255, 255, 255, 0.5);
+}
+.glr{
+position: absolute;
+width: 50px;
+height: 250px;
+background: white;
+transform: translateX(-200px) skew(-45deg);
+animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: translateX(-200px) skew(-45deg);
+    }
+    50%{
+        transform: translateX(600px) skew(-45deg);
+    }
+    100%{
+        transform: translateX(-200px) skew(-45deg);
+    }
+}}
